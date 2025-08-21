@@ -1,0 +1,83 @@
+/* Fullscreen center */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Counter Number */
+.counter {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #6b46c1;
+  margin: 1rem 0;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.add {
+  background-color: #38a169;
+  color: white;
+}
+
+.btn.add:hover {
+  background-color: #2f855a;
+}
+
+.btn.remove {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.btn.remove:hover {
+  background-color: #c53030;
+}
+
+/* Range text */
+.range-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 1rem;
+}
